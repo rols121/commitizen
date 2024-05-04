@@ -224,6 +224,7 @@ class Init:
             "commitizen": "commitizen: Fetch and set version in commitizen config (default)",
             "cargo": "cargo: Get and set version from Cargo.toml:project.version field",
             "composer": "composer: Get and set version from composer.json:project.version field",
+            "conanfile": "conanfile: Get and set the conanfile.py:version field for conan v1 and v2",
             "npm": "npm: Get and set version from package.json:project.version field",
             "pep621": "pep621: Get and set version from pyproject.toml:project.version field",
             "poetry": "poetry: Get and set version from pyproject.toml:tool.poetry.version field",

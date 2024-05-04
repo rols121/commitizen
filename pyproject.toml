@@ -94,6 +94,7 @@ restructuredtext = "commitizen.changelog_formats.restructuredtext:RestructuredTe
 [tool.poetry.plugins."commitizen.provider"]
 cargo = "commitizen.providers:CargoProvider"
 commitizen = "commitizen.providers:CommitizenProvider"
+conanfile = "commitizen.providers:ConanfileProvider"
 composer = "commitizen.providers:ComposerProvider"
 npm = "commitizen.providers:NpmProvider"
 pep621 = "commitizen.providers:Pep621Provider"
